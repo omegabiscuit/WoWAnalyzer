@@ -39,9 +39,7 @@ import AspectOfTheBeast from './modules/talents/AspectOfTheBeast';
 import DireBeast from './modules/talents/DireBeast';
 import KillerCobra from './modules/talents/KillerCobra';
 import KillerInstinct from './modules/talents/KillerInstinct';
-import OneWithThePack from './modules/talents/OneWithThePack';
 import ScentOfBlood from './modules/talents/ScentOfBlood';
-import Stampede from './modules/talents/Stampede';
 import Stomp from './modules/talents/Stomp';
 import ThrillOfTheHunt from './modules/talents/ThrillOfTheHunt';
 import MasterMarksman from '../shared/talents/MasterMarksman';
@@ -52,7 +50,6 @@ import FrenzyBuffStackGraph from './modules/guide/sections/rotation/FrenzyBuffSt
 import FocusGraph from './modules/guide/sections/resources/FocusGraph';
 import BarbedShotNormalizer from './normalizers/BarbedShotNormalizer';
 import Bloodshed from './modules/talents/Bloodshed';
-import DirePack from './modules/talents/DirePack';
 import T29BMTier2P from './modules/items/T29BMTier2P';
 import T29BMTier4P from './modules/items/T29BMTier4P';
 import CallToDominance from 'parser/retail/modules/items/dragonflight/CallToDominance';
@@ -111,11 +108,9 @@ class CombatLogParser extends CoreCombatLogParser {
     trailblazer: Trailblazer,
     barrage: Barrage,
     killerCobra: KillerCobra,
-    stampede: Stampede,
     stomp: Stomp,
     aMurderOfCrows: AMurderOfCrows,
     thrillOfTheHunt: ThrillOfTheHunt,
-    oneWithThePack: OneWithThePack,
     aspectOfTheBeast: AspectOfTheBeast,
     scentOfBlood: ScentOfBlood,
     bornToBeWild: BornToBeWild,
@@ -126,7 +121,6 @@ class CombatLogParser extends CoreCombatLogParser {
     deathChakrams: DeathChakrams,
     masterMarksman: MasterMarksman,
     bloodshed: Bloodshed,
-    direPack: DirePack,
     tranquilizingShot: TranquilizingShot,
     steeltrap: SteelTrap,
 
